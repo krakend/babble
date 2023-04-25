@@ -1,7 +1,9 @@
-package babble_test
+package babble
 
 import (
-	. "github.com/tjarratt/babble"
+	"math/rand"
+	"time"
+
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
@@ -10,9 +12,10 @@ var _ = Describe("babble", func() {
 	var babbler Babbler
 	BeforeEach(func() {
 		babbler = Babbler{
-			Count: 1,
-			Words: []string{"hello"},
+			Count:     1,
+			Words:     []string{"hello"},
 			Separator: "☃",
+			rand:      rand.New(rand.NewSource(time.Now().UnixNano())),
 		}
 	})
 

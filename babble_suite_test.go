@@ -1,9 +1,10 @@
-package babble_test
+package babble
 
 import (
+	"testing"
+
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"testing"
 )
 
 func TestBabble(t *testing.T) {

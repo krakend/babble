@@ -2,7 +2,7 @@ package babble
 
 var bundledDictionary []string
 
-func readAvailableDictionary() ([]string) {
+func readAvailableDictionary() []string {
 	return bundledDictionary
 }
 

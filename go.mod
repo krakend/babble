@@ -5,7 +5,6 @@ go 1.20
 require (
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.27.5
-	github.com/tjarratt/babble v0.0.0-20210505082055-cbca2a4833c1
 )
 
 require (
