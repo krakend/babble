@@ -1,4 +1,4 @@
-module github.com/krakendio/babble
+module github.com/krakend/babble
 
 go 1.20
 
